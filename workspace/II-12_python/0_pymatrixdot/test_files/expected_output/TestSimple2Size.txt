@@ -1,0 +1,19 @@
+===== Square decreased matrix =====
+Matrix has correct type
+[[36.0, 39.0], [105.0, 114.0]]
+
+===== Square increased matrix =====
+Matrix has correct type
+[[84.0, 90.0, 96.0, 0.0], [201.0, 216.0, 231.0, 0.0], [318.0, 342.0, 366.0, 0.0], [0.0, 0.0, 0.0, 0.0]]
+
+===== Matrix 3*2 Matrix 2*3 Size 3 =====
+Matrix has correct type
+[[9.0, 12.0, 15.0], [24.0, 33.0, 42.0], [39.0, 54.0, 69.0]]
+
+===== Matrix 2*3 Matrix 3*2 Size 2 =====
+Matrix has correct type
+[[9.0, 12.0], [24.0, 33.0]]
+
+===== Matrix 4*2 Matrix 4*2 Size 3 =====
+Matrix has correct type
+[[11.0, 14.0, 17.0], [35.0, 46.0, 57.0], [0.0, 0.0, 0.0]]
