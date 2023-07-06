@@ -62,6 +62,6 @@ print(R)
 
 `test_random.py` проверяет случай перемножения двух квадратных матриц размера 2x2.
 Отличие от предыдущих тестов в том, что эти матрицы генерируюся рандомно.
-`test_files/help_scripts/generate_random_matrix.py` генерирует их в `tmp_files/random_matrix.txt`
+`test_files/help_scripts/generate_random_matrix.py` генерирует их в `tmp_files/random_matrix.txt`.
 `test_files/help_scripts/random_expected.py` получает ожидаемый вывод для этого теста
 как `test_files/expected_output/TestSimple3Random.txt`.
