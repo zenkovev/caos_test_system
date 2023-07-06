@@ -1,6 +1,7 @@
-# Как устроены тесты и как их запускать.
+# Как устроены тесты и как их запускать
 
-Объяснение на примере задачи [Tutorial](https://github.com/zenkovev/caos_test_system/tree/main/workspace/00_tutorial/0_tutorial),
+Объяснение на примере задачи
+[Tutorial](https://github.com/zenkovev/caos_test_system/tree/main/workspace/00_tutorial/I-00_tutorial),
 если в других задачах будут особенности, они будут оговорены в описании к задаче.
 
 В случае задачи Tutorial структура тестов слишком сложна относительно самой задачи,
