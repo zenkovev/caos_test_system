@@ -1,0 +1,5 @@
+TestHard1LongLong.txt
+TestHard2Negative.txt
+TestHard3LongLongNeg.txt
+TestHard4SpecialNum.txt
+TestHard5SpecialTypes.txt

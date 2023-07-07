@@ -1,0 +1,71 @@
+Factorization of number -100
+Factorization has correct type
+[2, 2, 5, 5]
+
+Factorization of number -17
+Factorization has correct type
+Prime!
+
+Factorization of number -2
+Factorization has correct type
+Prime!
+
+Factorization of number -3
+Factorization has correct type
+Prime!
+
+Factorization of number -4
+Factorization has correct type
+[2, 2]
+
+Factorization of number -5
+Factorization has correct type
+Prime!
+
+Factorization of number -6
+Factorization has correct type
+[2, 3]
+
+Factorization of number -7
+Factorization has correct type
+Prime!
+
+Factorization of number -500
+Factorization has correct type
+[2, 2, 5, 5, 5]
+
+Factorization of number -503
+Factorization has correct type
+Prime!
+
+Factorization of number -1000
+Factorization has correct type
+[2, 2, 2, 5, 5, 5]
+
+Factorization of number -2999
+Factorization has correct type
+Prime!
+
+Factorization of number -6007
+Factorization has correct type
+Prime!
+
+Factorization of number -502501
+Factorization has correct type
+Prime!
+
+Factorization of number -754181
+Factorization has correct type
+Prime!
+
+Factorization of number -904811
+Factorization has correct type
+Prime!
+
+Factorization of number -1505112
+Factorization has correct type
+[2, 2, 2, 3, 7, 17, 17, 31]
+
+Factorization of number -123456789
+Factorization has correct type
+[3, 3, 3607, 3803]

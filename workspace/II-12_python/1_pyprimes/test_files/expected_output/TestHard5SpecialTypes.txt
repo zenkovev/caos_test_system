@@ -1,0 +1,11 @@
+Factorization of number abc
+Factorization has exception
+<class 'TypeError'>
+
+Factorization of number [10, 20]
+Factorization has exception
+<class 'TypeError'>
+
+Factorization of number 10, 20
+Factorization has exception
+<class 'TypeError'>
