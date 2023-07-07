@@ -1,0 +1,83 @@
+Factorization of number 1
+Factorization has correct type
+[]
+
+Factorization of number -1
+Factorization has correct type
+[]
+
+Factorization of number 0
+Factorization has exception
+<class 'ValueError'>
+
+Factorization of number 123456789123456789123456789
+Factorization has exception
+<class 'ValueError'>
+
+Factorization of number -123456789123456789123456789
+Factorization has exception
+<class 'ValueError'>
+
+Factorization of number 2147483646
+Factorization has correct type
+[2, 3, 3, 7, 11, 31, 151, 331]
+
+Factorization of number 2147483647
+Factorization has correct type
+Prime!
+
+Factorization of number 2147483648
+Factorization has correct type
+[2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+
+Factorization of number 2147483649
+Factorization has correct type
+[3, 715827883]
+
+Factorization of number -2147483646
+Factorization has correct type
+[2, 3, 3, 7, 11, 31, 151, 331]
+
+Factorization of number -2147483647
+Factorization has correct type
+Prime!
+
+Factorization of number -2147483648
+Factorization has correct type
+[2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+
+Factorization of number -2147483649
+Factorization has correct type
+[3, 715827883]
+
+Factorization of number 9223372036854775806
+Factorization has correct type
+[2, 3, 715827883, 2147483647]
+
+Factorization of number 9223372036854775807
+Factorization has correct type
+[7, 7, 73, 127, 337, 92737, 649657]
+
+Factorization of number 9223372036854775808
+Factorization has exception
+<class 'ValueError'>
+
+Factorization of number 9223372036854775809
+Factorization has exception
+<class 'ValueError'>
+
+Factorization of number -9223372036854775806
+Factorization has correct type
+[2, 3, 715827883, 2147483647]
+
+Factorization of number -9223372036854775807
+Factorization has correct type
+[7, 7, 73, 127, 337, 92737, 649657]
+
+Factorization of number -9223372036854775808
+Factorization has correct type
+[2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+
+Factorization of number -9223372036854775809
+Factorization has exception
+<class 'ValueError'>
