@@ -1,0 +1,11 @@
+next
+print a
+step
+print a
+next
+print a
+next
+print a
+step
+print a
+continue

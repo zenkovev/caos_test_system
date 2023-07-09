@@ -1,0 +1,50 @@
+next # 1: def function_print(a, b):
+next # 5: def str_to_str(string) -> str:
+next # 8: def void():
+next # 12: print("a")
+print 10
+step # 13: print("b")
+print 20
+next # 16: list_obj = ["abc", "cba"]
+print list_obj
+next # 17: number = 42
+print number
+next # 21: print({"alpha": "beta"})
+print "Print {'alpha': 'beta'} done"
+next # 22: print({"gamma": "delta"})
+print "Print {'gamma': 'delta'} done"
+next # 23: function_print(["assert", "mutex", "condvar"], list_obj)
+print "Print abc, cba, assert, mutex, condvar done"
+next # 24: function_print(str_to_str("fiber"), "fibers")
+print "Print fibers, fiber done"
+step # 25: function_print(number, "wait_group")
+print "Step 1: void: done"
+step # 2: print(b)
+print "Step 2: print wait_group: done"
+step # 3: print(a)
+print "Step 3: print 42: done"
+step # 26: function_print("fun", "lazy")
+print "Before next: in inner function"
+next # 2: print(b)
+print "Next 1: print lazy: done"
+next # 3: print(a)
+print "Next 2: print fun: done"
+step # 27: function_print(str_to_str("abra"), str_to_str("cadabra"))
+step # 6: return "[" + string + "]"
+step # 6: return "[" + string + "]"
+print "Before print cadabra"
+step # 2: print(b)
+print "After print cadabra"
+print "Before print abra"
+step # 3: print(a)
+print "After print abra"
+step # 28: function_print(str_to_str("ELF"), "text")
+step # 6: return "[" + string + "]"
+print "Before print text"
+next # 2: print(b)
+print "After print text"
+print "Before print ELF"
+step # 3: print(a)
+print "After print ELF"
+step # 30: print("Finish")
+continue

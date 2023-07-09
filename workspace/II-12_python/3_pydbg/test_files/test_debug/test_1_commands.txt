@@ -1,0 +1,4 @@
+next
+next
+print (a+b)*2
+continue
