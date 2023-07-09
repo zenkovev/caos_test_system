@@ -3,3 +3,4 @@ TestSimple2Args.txt
 TestSimple3Functions.txt
 TestSimple4Order.txt
 TestSimple5Continue.txt
+TestSimple6Repr.txt

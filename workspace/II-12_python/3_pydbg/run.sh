@@ -28,6 +28,8 @@ if (($CMAKE_MAKE_RESULT == 0)); then
       &> $RO/TestSimple4Order.txt
   ./tmp_files/pydbg-bin $TD/test_5_commands.txt $TD/test_5_continue.py \
       &> $RO/TestSimple5Continue.txt
+  ./tmp_files/pydbg-bin $TD/test_6_commands.txt $TD/test_6_repr.py \
+      &> $RO/TestSimple6Repr.txt
 fi
 
 chmod +x test_files/check_simple.sh

@@ -1,0 +1,2 @@
+SimpleClass: repr
+Success
