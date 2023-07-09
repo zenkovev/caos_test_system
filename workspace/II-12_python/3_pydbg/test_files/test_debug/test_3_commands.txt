@@ -1,0 +1,50 @@
+next
+next
+next
+next
+print 10
+step
+print 20
+next
+print list_obj
+next
+print number
+next
+print "Print {'alpha': 'beta'} done"
+next
+print "Print {'gamma': 'delta'} done"
+next
+print "Print abc, cba, assert, mutex, condvar done"
+next
+print "Print fibers, fiber done"
+step
+print "Step 1: void: done"
+step
+print "Step 2: print wait_group: done"
+step
+print "Step 3: print 42: done"
+step
+print "Before next: in inner function"
+next
+print "Next 1: print lazy: done"
+next
+print "Next 2: print fun: done"
+step
+step
+step
+print "Before print cadabra"
+step
+print "After print cadabra"
+print "Before print abra"
+step
+print "After print abra"
+step
+step
+print "Before print text"
+next
+print "After print text"
+print "Before print ELF"
+step
+print "After print ELF"
+step
+continue

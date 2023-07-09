@@ -1,0 +1,39 @@
+a
+10
+b
+20
+['abc', 'cba']
+42
+{'alpha': 'beta'}
+Print {'alpha': 'beta'} done
+{'gamma': 'delta'}
+Print {'gamma': 'delta'} done
+['abc', 'cba']
+['assert', 'mutex', 'condvar']
+Print abc, cba, assert, mutex, condvar done
+fibers
+[fiber]
+Print fibers, fiber done
+Step 1: void: done
+wait_group
+Step 2: print wait_group: done
+42
+Step 3: print 42: done
+Before next: in inner function
+lazy
+Next 1: print lazy: done
+fun
+Next 2: print fun: done
+Before print cadabra
+[cadabra]
+After print cadabra
+Before print abra
+[abra]
+After print abra
+Before print text
+text
+After print text
+Before print ELF
+[ELF]
+After print ELF
+Finish
