@@ -33,7 +33,8 @@ c = a + b       # continue       -- появилась переменная c
 print(c)        #                -- будет выведено 579 из программы
 ```
 
-Указание: используйте функцию PyEval\_SetTrace.
+Указание: используйте функцию
+[PyEval\_SetTrace](https://docs.python.org/3/c-api/init.html?highlight=pyeval_settr#c.PyEval_SetTrace).
 
 ## Комментарий к тестам
 
