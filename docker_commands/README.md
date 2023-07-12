@@ -3,18 +3,36 @@
 ## Установка докера
 
 Фрагмент инструкции взят [отсюда](https://gitlab.com/Lipovsky/concurrency-course/-/blob/master/docs/docker.md). <br />
-На данный момент работоспособность проверена только на Ubuntu 22.04. <br />
+На данный момент работоспособность проверена на Ubuntu 22.04 и Manjaro 22.0.0. <br />
 Ожидается корректность работы на дистрибутивах Linux и macOS.
 
-### Linux
+### Linux Ubuntu, Debian
 
 ```shell
 sudo apt install -y docker docker-compose bash
 sudo groupadd docker
 sudo usermod -aG docker $USER
+# перезапустить текущую сессию (или просто перезагрузить машину)
 ```
 
-После этого нужно перезапустить текущую сессию (или просто перезагрузить машину).
+Убедитесь, что Докер успешно установился и работает:
+```shell
+docker run hello-world
+```
+
+### Arch Linux, Manjaro Linux
+
+```shell
+sudo pacman -S docker docker-compose bash
+# перезапустить текущую сессию (или просто перезагрузить машину)
+
+sudo systemctl start docker.service
+sudo systemctl enable docker.service
+
+sudo groupadd docker
+sudo usermod -aG docker $USER
+# перезапустить текущую сессию (или просто перезагрузить машину)
+```
 
 Убедитесь, что Докер успешно установился и работает:
 ```shell
