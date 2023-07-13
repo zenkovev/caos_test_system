@@ -90,13 +90,13 @@
 [Tutorial](https://github.com/zenkovev/caos_test_system/tree/main/workspace/I-00_tutorial/0_tutorial)
 с названием
 [Tutorial Format](https://github.com/zenkovev/caos_test_system/tree/main/workspace/I-00_tutorial/1_tutorial_format).
-На её основе будут создаваться тесты ко всем подобным задачам.
+На основе её тестов будут создаваться тесты ко всем подобным задачам.
 
-Перед запуском скрипта `test_files/check.sh` теперь производится запуск скрипта
-`test_files/format.sh`. Он создаёт директорию `tmp_files/format_output`, после чего
+Как изменились тесты? Теперь перед запуском скрипта `test_files/check.sh` производится запуск
+скрипта `test_files/format.sh`. Он создаёт директорию `tmp_files/format_output`, после чего
 необходимые файлы из `tmp_files/real_output` сохраняются в `tmp_files/format_output`
 с тем же названием и с преобразованным содержанием.
 Преобразование заключается в приведении всех непечатаемых символов в файле
 к виду, требуемому в `test_files/expected_output`.
-После чего производится сравнение уже для файлов из
+И все сравнения в тестах производятся для файлов из директорий
 `test_files/expected_output` и `tmp_files/format_output`.
