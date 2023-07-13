@@ -1,0 +1,4 @@
+TestSimple1Basic.txt
+TestSimple2Std.txt
+TestSimple1Basic_ASAN.txt
+TestSimple2Std_ASAN.txt
