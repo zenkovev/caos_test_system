@@ -78,3 +78,24 @@
 Сравнение производится внутри скриптов `run.sh` и `run_hard.sh`
 с помощью скриптов `check_simple.sh`, `check_hard.sh`, `check.sh`,
 находящихся в директории `test_files`.
+
+### Формат вывода программы
+
+Конечно, посимвольная проверка вывода имеет свои недостатки.
+Например, если нужно вывести десять чисел, обычно не накладывается ограничений,
+как их разделять, пробелами или переносами строки. Посимвольная проверка вывода
+накладывает здесь жёсткие ограничения на требуемый вывод.
+
+Чтобы этого избежать, создана модификация задачи
+[Tutorial](https://github.com/zenkovev/caos_test_system/tree/main/workspace/I-00_tutorial/0_tutorial)
+с названием
+[Tutorial Format](https://github.com/zenkovev/caos_test_system/tree/main/workspace/I-00_tutorial/1_tutorial_format).
+На её основе будут создаваться тесты ко всем подобным задачам.
+
+Перед запуском скрипта `test_files/check.sh` теперь производится запуск скрипта
+`test_files/format.sh`. Он создаёт директорию `tmp_files/format_output`, после чего
+необходимые файлы из `tmp_files/real_output` сохраняются в `tmp_files/format_output`
+с тем же названием и с преобразованным содержанием.
+Преобразование заключается в приведении всех непечатаемых символов в файле
+к виду, требуемому в `test_files/expected_output`.
+После чего производится сравнение уже `test_files/expected_output` и `tmp_files/format_output`.
