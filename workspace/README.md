@@ -98,4 +98,5 @@
 с тем же названием и с преобразованным содержанием.
 Преобразование заключается в приведении всех непечатаемых символов в файле
 к виду, требуемому в `test_files/expected_output`.
-После чего производится сравнение уже `test_files/expected_output` и `tmp_files/format_output`.
+После чего производится сравнение уже для файлов из
+`test_files/expected_output` и `tmp_files/format_output`.
