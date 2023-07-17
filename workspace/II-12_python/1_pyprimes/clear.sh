@@ -1,6 +1,6 @@
 #!/bin/bash
 
-rm test_files/expected_output/TestSimple2Random.txt 2> /dev/null
+rm -f test_files/expected_output/TestSimple2Random.txt
 
 rm -R tmp_files
 mkdir tmp_files
