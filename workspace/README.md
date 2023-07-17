@@ -100,3 +100,21 @@
 к виду, требуемому в `test_files/expected_output`.
 И все сравнения в тестах производятся для файлов из директорий
 `test_files/expected_output` и `tmp_files/format_output`.
+
+### Работа из IDE
+
+В качестве предлагаемого способа работы с задачами из IDE
+представлена модификация задачи
+[Tutorial Format](https://github.com/zenkovev/caos_test_system/tree/main/workspace/I-00_tutorial/1_tutorial_format)
+с названием
+[Tutorial IDE](https://github.com/zenkovev/caos_test_system/tree/main/workspace/I-00_tutorial/2_tutorial_ide).
+Предлагается в директории с задачей создать поддиректорию `IDE`,
+в которой будет находиться файл с решением и `CMakeLists.txt`.
+Эту поддиректорию можно открывать в IDE как проект.
+Проверено на CLion и VS Code.
+
+При этом из всей поддиректории `IDE` на запуск и работу тестов будет влиять лишь файл с решением.
+Для этого соответствующим образом изменён файл `program_name.txt`.
+
+TODO: Планируется создать поддиректории `IDE` с `CMakeLists.txt` для всех задач,
+а также проверить и сделать инструкцию по совместному использованию Docker и IDE.
