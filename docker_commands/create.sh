@@ -19,7 +19,7 @@ docker run \
 #   image name
 #   for work in background mode
 
-until [ "`docker inspect -f {{.State.Running}} caos_test_docker 2> /dev/null`"=="true" ]; do
+until [ "`docker inspect -f {{.State.Running}} caos_test_docker 2> /dev/null`" == "true" ]; do
     sleep 0.5;
 done;
 docker stop caos_test_docker
