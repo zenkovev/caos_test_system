@@ -1,0 +1,8 @@
+tmp_files/mnt:
+1.txt
+2.txt
+A
+
+tmp_files/mnt/A:
+1.txt
+2.txt
