@@ -19,7 +19,8 @@ RUN apt-get -y install wget checkinstall && \
 RUN apt update
 
 RUN apt -y install meson cmake fuse3 libfuse3-dev libglib2.0-dev && \
-    apt -y install libzip-dev
+    apt -y install libzip-dev && \
+    apt -y install openssl libssl-dev
 
 RUN useradd -ms /bin/bash caos_master
 USER caos_master

@@ -1,0 +1,4 @@
+TestSimple1Eng.txt
+TestSimple2Rus.txt
+TestSimple1Eng_ASAN.txt
+TestSimple2Rus_ASAN.txt
